@@ -1,16 +1,26 @@
 import React from 'react'
+import Image from 'next/image';
 
 const About = () => {
   return (
-    <div>
-      About
-      <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium quo corrupti laboriosam debitis facere dolores inventore at aspernatur, repellat, eligendi ducimus est culpa accusantium natus velit a repudiandae distinctio nam?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, earum similique. Laborum doloremque dolorem perferendis quis est, error dignissimos culpa impedit aut ipsa et, modi itaque illum tempora quidem tenetur!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sed sit illo expedita autem temporibus, praesentium, ipsa tempore, esse dolorem amet maiores quis provident nihil quibusdam exercitationem nam accusamus quaerat.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis voluptatem dignissimos excepturi nisi ex facere saepe reprehenderit itaque accusamus temporibus expedita sunt incidunt magni magnam asperiores, laborum doloribus ad aliquam quibusdam id nulla perspiciatis quae necessitatibus qui. Quibusdam distinctio labore natus eligendi nostrum illo id quisquam obcaecati nemo! Porro, corrupti. Maiores tempora illum similique inventore necessitatibus quis eveniet deserunt cumque! Labore non quam, cum reprehenderit provident impedit officia laboriosam in eaque soluta, rerum iusto similique ipsa incidunt fuga? Explicabo iste accusantium voluptates ex, fugiat harum, voluptate fugit rerum blanditiis ipsum repellendus eius, possimus delectus et amet alias dignissimos quam velit.
-        
-      </h1>
-
+    <div id='about' className='flex flex-col justify-center text-center mx-auto bg-[#202020]'>
+      <h1 className='text-4xl'>About Me</h1>
+      <div className='flex'>
+      <div className='hidden md:block'>
+        <Image src='/IMG-20210316-WA0008-edit.jpg' alt='rithick' width={600} height={600}/>
+      </div>
+      <div className=' flex flex-col justify-center'>
+        <h3>
+        Currently, I am Pursuing my Bachelors degree in Vels Institute of Science, Technology & Advanced Studies (VISTAS). My character is one of diligence and trustworthiness. Time management is one of my strong suits,
+         and I am always eager to learn new skills. In hectic settings, I can operate both independently and collaboratively.
+        </h3>
+        <h3>Name : Rithick</h3>
+        <h3>Date Of Birth : 28/12/2002</h3>
+        <h3>Email : rithickg567@gmail.com</h3>
+        <h3>Phone : 8056215840</h3>
+        <button><a href='/Resume-Rithick-G.pdf' download='Resume-Rithick-G'>Download Resume</a></button>
+      </div>
+      </div>
     </div>
   )
 }

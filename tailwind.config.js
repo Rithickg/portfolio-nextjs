@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
-const withAnimations = require('animated-tailwindcss');
 
-module.exports = withAnimations({
+
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -12,6 +12,5 @@ module.exports = withAnimations({
     extend: {},
   },
   plugins: [
-    require('animated-tailwindcss'),
   ],
-});
+};

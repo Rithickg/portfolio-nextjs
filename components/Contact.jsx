@@ -4,7 +4,7 @@ import {AiOutlineInstagram,AiOutlineLinkedin,AiFillTwitterCircle,AiOutlineGithub
 
 const Contact = () => {
   return (
-    <div className='flex flex-col justify-center '>
+    <div id='contact' className='flex flex-col justify-center '>
       <div className='flex justify-center flex-wrap'>
         <h3>
         Email:rithickg567@gmail.com
