@@ -35,19 +35,25 @@ const Projects = () => {
       <spanc className='text-2xl text-orange-500'>Projects</spanc>
       <div className='flex p-5 text-center justify-around flex-wrap'>
       <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+        <a href='https://github.com/Rithickg/Billing_System' target='_blank' rel="noreferrer noopener">
         <Image src={billImg} alt='bill image' className='rounded-md' width={300} height={300} placeholder='blur' quality={80} />
         <h3>Billing-System</h3>
         <h5>view code :-</h5>
+        </a>
       </motion.div>
       <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+       <a href='https://github.com/Rithickg/mern_blog' target='_blank' rel="noreferrer noopener">
         <Image src={blogImg} alt='blog image' className='rounded-md' width={300} height={300} placeholder='blur' quality={80} />
         <h3>Blog-Website</h3>
         <h5>view code :-</h5>
+        </a>
       </motion.div>
       <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+       <a href='https://github.com/Rithickg/Python_and_DBMS_Project' target='_blank' rel="noreferrer noopener">
         <Image src={chatImg} alt='chat image' className='rounded-md' width={300} height={300} placeholder='blur' quality={80} />
-        <h3>Chat-Application</h3>
+        <h3>Hotel-Reservation</h3>
         <h5>view code :-</h5>
+        </a>
       </motion.div>
     </div>
     </div>

@@ -23,19 +23,19 @@ const NavBar = () => {
     <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#000308] md:z-auto z-[-1]
      left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
                    <li className='md:ml-8 text-xl md:my-0 my-7'>
-                        <a href='#home' className='text-white hover:text-gray-400 duration-500'>HOME</a>
+                        <a href='#home' className='text-white hover:text-orange-500 duration-500'>HOME</a>
                     </li>
                     <li className='md:ml-8 text-xl md:my-0 my-7'>
-                        <a href='#about' className='text-white hover:text-gray-400 duration-500'>ABOUT</a>
+                        <a href='#about' className='text-white hover:text-orange-500 duration-500'>ABOUT</a>
                     </li>
                     <li className='md:ml-8 text-xl md:my-0 my-7'>
-                        <a href='#skills' className='text-white hover:text-gray-400 duration-500'>SKILLS</a>
+                        <a href='#skills' className='text-white hover:text-orange-500 duration-500'>SKILLS</a>
                     </li>
                     <li className='md:ml-8 text-xl md:my-0 my-7'>
-                        <a href='#projects' className='text-white hover:text-gray-400 duration-500'>PROJECTS</a>
+                        <a href='#projects' className='text-white hover:text-orange-500 duration-500'>PROJECTS</a>
                     </li>
                     <li className='md:ml-8 text-xl md:my-0 my-7'>
-                        <a href='#contact' className='text-white hover:text-gray-400 duration-500'>CONTACT</a>
+                        <a href='#contact' className='text-white hover:text-orange-500 duration-500'>CONTACT</a>
                     </li>
     </ul>
     </div>

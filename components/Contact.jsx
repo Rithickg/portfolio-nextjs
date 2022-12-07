@@ -20,14 +20,26 @@ const Contact = () => {
       <div className='p-2 justify-center text-center'>
         <span className='text-xl text-orange-500'>Socials</span>
       <div className='flex justify-center p-2'>
+        <a href='https://www.instagram.com/rithick.28/' target='_blank' rel="noreferrer noopener">
         <AiOutlineInstagram className='w-8 h-8 m-1'/>
+        </a>
+        <a href='https://www.linkedin.com/in/rithick-g-b972aa213/' target='_blank' rel="noreferrer noopener">
         <AiOutlineLinkedin className='w-8 h-8 m-1'/>
+        </a>
+        <a href='https://twitter.com/' target='_blank' rel="noreferrer noopener">
         <AiFillTwitterCircle className='w-8 h-8 m-1'/>
+        </a>
       </div>
       <div className='flex justify-center p-2'>
+        <a href='https://github.com/Rithickg' target='_blank' rel="noreferrer noopener">
         <AiOutlineGithub className='w-8 h-8 m-1'/>
+        </a>
+        <a href='mailto:rithickg567@gmail.com'>
         <AiOutlineMail className='w-8 h-8 m-1'/>
+        </a>
+        <a href='https://wa.me/918056215840?text=Hi' target='_blank' rel="noreferrer noopener">
         <AiOutlineWhatsApp className='w-8 h-8 m-1'/>
+        </a>
       </div>
       </div>
       </div>
