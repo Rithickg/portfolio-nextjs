@@ -1,30 +1,38 @@
 import React from 'react'
-import {AiOutlineInstagram,AiOutlineLinkedin,AiFillTwitterCircle,AiOutlineGithub,AiOutlineMail,AiOutlineWhatsApp} from 'react-icons/ai'
+import {AiOutlineMail,AiFillPhone,AiOutlineInstagram,AiOutlineLinkedin,AiFillTwitterCircle,AiOutlineGithub,AiOutlineWhatsApp} from 'react-icons/ai'
 
 
 const Contact = () => {
   return (
-    <div id='contact' className='flex flex-col justify-center '>
-      <div className='flex justify-center flex-wrap'>
-        <h3>
-        Email:rithickg567@gmail.com
-        </h3>
-        <h3>
-        whatsapp:8056215840
-        </h3>
+    <div id='contact' className='flex p-2 flex-col justify-center '>
+      <div className='flex flex-col sm:flex-row justify-evenly '>
+      <div className='flex justify-center flex-col flex-wrap text-center'>
+       <span className='text-xl text-orange-500'>Contact</span>
+        <div className='flex p-2 justify-center'>
+          <AiOutlineMail className='w-8 h-8 text-orange-500 bg-white rounded-full p-1' />
+          <span className='p-2'>rithickg567@gmail</span> 
+        </div>
+        <div className='flex p-2 justify-center'>
+         <AiFillPhone className='w-8 h-8 text-orange-500 bg-white rounded-full p-1'/>
+         <span className='p-2'>+918056215840</span> 
+        </div>
       </div>
-      <div className='flex justify-center'>
-        <AiOutlineInstagram/>
-        <AiOutlineLinkedin/>
-        <AiFillTwitterCircle/>
+      <div className='p-2 justify-center text-center'>
+        <span className='text-xl text-orange-500'>Socials</span>
+      <div className='flex justify-center p-2'>
+        <AiOutlineInstagram className='w-8 h-8 m-1'/>
+        <AiOutlineLinkedin className='w-8 h-8 m-1'/>
+        <AiFillTwitterCircle className='w-8 h-8 m-1'/>
       </div>
-      <div className='flex justify-center'>
-        <AiOutlineGithub/>
-        <AiOutlineMail/>
-        <AiOutlineWhatsApp/>
+      <div className='flex justify-center p-2'>
+        <AiOutlineGithub className='w-8 h-8 m-1'/>
+        <AiOutlineMail className='w-8 h-8 m-1'/>
+        <AiOutlineWhatsApp className='w-8 h-8 m-1'/>
       </div>
-      <div className='flex justify-center flex-wrap'>
-        <span>Designed and developed by Rithick </span>
+      </div>
+      </div>
+      <div className='flex justify-center flex-wrap text-lg'>
+        <span>Designed and developed by <span className='text-red-600'>❤</span> Rithick </span>
         </div>
     </div>
   )

@@ -19,7 +19,7 @@ const Projects = () => {
     if(inView){
       animation.start({
         x:0,
-        type:'spring' ,duration:2 ,bounce:0.3 
+        type:'spring' ,duration:2 ,bounce:0.3 ,
       })
     }
     if(!inView){
@@ -31,22 +31,25 @@ const Projects = () => {
 
   
   return (
-    <div ref={ref} h-full id='projects' className='flex justify-around flex-wrap bg-[#202020]'>
-      <motion.div animate={animation}>
+    <div ref={ref} h-full id='projects' className=' p-5 text-center bg-[#202020]'>
+      <spanc className='text-2xl text-orange-500'>Projects</spanc>
+      <div className='flex p-5 text-center justify-around flex-wrap'>
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
         <Image src={billImg} alt='bill image' className='rounded-md' width={300} height={300} placeholder='blur' quality={80} />
         <h3>Billing-System</h3>
         <h5>view code :-</h5>
       </motion.div>
-      <motion.div animate={animation}>
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
         <Image src={blogImg} alt='blog image' className='rounded-md' width={300} height={300} placeholder='blur' quality={80} />
         <h3>Blog-Website</h3>
         <h5>view code :-</h5>
       </motion.div>
-      <motion.div animate={animation} >
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
         <Image src={chatImg} alt='chat image' className='rounded-md' width={300} height={300} placeholder='blur' quality={80} />
         <h3>Chat-Application</h3>
         <h5>view code :-</h5>
       </motion.div>
+    </div>
     </div>
   )
 }

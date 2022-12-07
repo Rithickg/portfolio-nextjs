@@ -4,7 +4,7 @@ import Image from 'next/image';
 const About = () => {
   return (
     <div id='about' className='flex flex-col justify-center text-center mx-auto bg-[#202020]'>
-      <h1 className='text-4xl'>About Me</h1>
+      <h1 className='text-4xl text-orange-500 p-2'>About Me</h1>
       <div className='flex'>
       <div className='hidden md:block'>
         <Image src='/IMG-20210316-WA0008-edit.jpg' alt='rithick' width={600} height={600}/>
