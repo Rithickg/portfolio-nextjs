@@ -12,7 +12,7 @@ const NavBar = () => {
     <div className='md:flex items-center justify-between bg-[#000308] py-4 md:px-10 px-7'>
     <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
     text-white'>
-      <span className='text-3xl text-indigo-600 mr-1'>
+      <span className='text-3xl text-orange-500 mr-1'>
         <RiBillLine/>
      </span>
         RITHICK

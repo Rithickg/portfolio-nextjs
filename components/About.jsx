@@ -18,7 +18,7 @@ const About = () => {
         <h3>Date Of Birth : 28/12/2002</h3>
         <h3>Email : rithickg567@gmail.com</h3>
         <h3>Phone : 8056215840</h3>
-        <button className='bg-orange-500 rounded-md text-black font-semibold p-2 w-fit mx-auto m-3'><a href='/Resume-Rithick-G.pdf' download='Resume-Rithick-G'>Download Resume</a></button>
+        <button className='bg-orange-500 rounded-md text-black font-semibold p-2 w-fit mx-auto m-3'><a href='/Rithick-G_Resume.pdf' download='Resume-Rithick-G'>Download Resume</a></button>
       </div>
       </div>
     </div>
