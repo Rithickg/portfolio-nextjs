@@ -33,7 +33,7 @@ const Skills = () => {
         </a>
         </div>
         <div className='p-5 hover:bg-[#202020] rounded-md m-2'>
-        <a href='https://reactjs.org/' target='_blank' rel="noreferrer noopener">
+        <a href='https://react.dev/' target='_blank' rel="noreferrer noopener">
         <Image src='/react-2.svg' width={100} height={100} alt='reactjs'/>
         <h3>ReactJs</h3>
         </a>
@@ -62,7 +62,7 @@ const Skills = () => {
         <h3>NextJs</h3>
         </a>
         </div>
-        {/* <div className='p-5 hover:bg-[#202020] rounded-md m-2'>
+        <div className='p-5 hover:bg-[#202020] rounded-md m-2'>
         <a href='https://sass-lang.com/' target='_blank' rel="noreferrer noopener">
         <Image src='/sass-1.svg' width={100} height={100} alt='sass'/>
         <h3>SASS</h3>
@@ -70,10 +70,28 @@ const Skills = () => {
         </div>
         <div className='p-5 hover:bg-[#202020] rounded-md m-2'>
         <a href='https://www.typescriptlang.org/' target='_blank' rel="noreferrer noopener">
-        <Image src='/typescript.svg' width={100} height={100} alt='css'/>
+        <Image src='/typescript.svg' width={100} height={100} alt='typescript'/>
         <h3>TypeScript</h3>
         </a>
-        </div> */}
+        </div>
+        <div className='p-5 hover:bg-[#202020] rounded-md m-2'>
+        <a href='https://www.python.org/' target='_blank' rel="noreferrer noopener">
+        <Image src='/python.svg' width={100} height={100} alt='python'/>
+        <h3>Python</h3>
+        </a>
+        </div>
+        <div className='p-5 hover:bg-[#202020] rounded-md m-2 '>
+        <a href='https://en.wikipedia.org/wiki/Machine_learning' target='_blank' rel="noreferrer noopener">
+        <Image src='/neural_network.svg' width={100} height={100} alt='machine_learning'/>
+        <h3>Machine<br/>Learning</h3>
+        </a>
+        </div>
+        <div className='p-5 hover:bg-[#202020] rounded-md m-2'>
+        <a href='https://flask.palletsprojects.com/en/3.0.x/' target='_blank' rel="noreferrer noopener">
+        <Image src='/flask.svg' width={100} height={100} alt='flask'/>
+        <h3>Flask</h3>
+        </a>
+        </div>
     </div>
     </div>
   )

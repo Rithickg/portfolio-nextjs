@@ -11,14 +11,12 @@ const Home = () => {
       <h3 className='text-2xl'>Hi There! I Am</h3>
       <h1 className='text-4xl text-[#ea580c]'>RITHICK</h1>
       <Image className='mx-auto' src='/19362653-depositphotos-bgremover.png' width={600} height={600} alt='programming'/>
-      <p className='text-2xl md:text-4xl break-words'>A Full-Stack Web Developer passinate about creating interactive applications and experiance on the web.</p>
+      <p className='text-2xl md:text-4xl  text-center '>A Full-Stack Web Developer passinate about creating interactive applications and experiance on the web.</p>
      <button className='bg-orange-500 rounded-md text-black font-semibold p-2 w-fit mx-auto m-3'>
      <a href='#projects'>View Projects</a>
      </button>
       </motion.div>
-       {/* <div className='mx-auto hidden sm:block'>
-       <Image src='/19362653-depositphotos-bgremover.png' width={600} height={600} alt='programming'/>
-       </div> */}
+      
     </div>
 
   )

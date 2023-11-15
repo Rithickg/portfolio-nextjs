@@ -3,6 +3,10 @@ import Image from 'next/image'
 import BillingSystem from '../public/Billing_System.png'
 import ImageGenerator from '../public/Image_Generator.png'
 import Portfolio from '../public/Portfolio_Img.png'
+import Talestop from '../public/Talestop.png'
+import DocCo from '../public/DocCo.png'
+import StripePayment from '../public/Stripe_payment.png'
+import NewGenStore from '../public/NewGenStore.png'
 import {motion} from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react'
@@ -15,7 +19,7 @@ const Projects = () => {
   const animation =useAnimation();
 
   useEffect(()=>{
-    console.log(inView)
+    // console.log(inView)
     if(inView){
       animation.start({
         x:0,
@@ -54,6 +58,54 @@ const Projects = () => {
         <h5 className='bg-orange-500 text-black font-semibold p-1 m-1 rounded'>View Code</h5>
         </a>
         <a href='https://openai-image-generator-client.vercel.app/' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded '>Demo</h5>
+        </a>
+        </div>
+      </motion.div>
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+      <Image src={Talestop} alt='talestop' className='rounded-md' width={300} height={500} placeholder='blur' quality={80} />
+        <h3 className='text-xl p-1'>Talestop</h3>
+        <div className='flex justify-center p-2'>
+        <a href='https://github.com/Rithickg/Talestop' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded'>View Code</h5>
+        </a>
+        <a href='https://www.talestop.com/' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded '>Demo</h5>
+        </a>
+        </div>
+      </motion.div>
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+      <Image src={DocCo} alt='DocCo' className='rounded-md' width={300} height={500} placeholder='blur' quality={80} />
+        <h3 className='text-xl p-1'>Doc-Co</h3>
+        <div className='flex justify-center p-2'>
+        <a href='https://github.com/Rithickg/heart-disease-prediction' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded'>View Code</h5>
+        </a>
+        <a href='https://heart-disease-prediction-xmxg.onrender.com/' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded '>Demo</h5>
+        </a>
+        </div>
+      </motion.div>
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+      <Image src={StripePayment} alt='Stripe Payment' className='rounded-md' width={300} height={500} placeholder='blur' quality={80} />
+        <h3 className='text-xl p-1'>Stripe Payment</h3>
+        <div className='flex justify-center p-2'>
+        <a href='https://github.com/Rithickg/stripe_payment' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded'>View Code</h5>
+        </a>
+        <a href='https://github.com/Rithickg/stripe_payment/blob/main/sample/screenshot1.png' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded'>Demo</h5>
+        </a>
+        </div>
+      </motion.div>
+      <motion.div className='bg-black p-3 m-2 rounded-md' animate={animation} transition={{ease:"easeOut" , duration:1}}>
+      <Image src={NewGenStore} alt='NewGen Store' className='rounded-md' width={300} height={500} placeholder='blur' quality={80} />
+        <h3 className='text-xl p-1'>NewGen Store</h3>
+        <div className='flex justify-center p-2'>
+        <a href='https://github.com/Rithickg/NewGen_Store' target='_blank' rel="noreferrer noopener">
+        <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded'>View Code</h5>
+        </a>
+        <a href='https://portfolio-nextjs-rithickg.vercel.app/' target='_blank' rel="noreferrer noopener">
         <h5 className='bg-orange-500 text-base text-black font-semibold p-1 m-1 rounded '>Demo</h5>
         </a>
         </div>
